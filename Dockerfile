@@ -1,4 +1,4 @@
-FROM quay.io/jupyter/minimal-notebook
+FROM quay.io/jupyter/minimal-notebook:x86_64-latest
 
 COPY conda-lock.yml /tmp/conda-lock.yml
 
